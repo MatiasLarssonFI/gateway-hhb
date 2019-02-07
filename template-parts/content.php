@@ -11,7 +11,7 @@
 		if ( has_post_thumbnail() ) { 
 
 			echo '<a href="' . esc_url( get_permalink() ) . '">';
-			the_post_thumbnail( 'post-image' );
+			the_post_thumbnail( [ 365, 365 ] );
 			echo '</a>';
 
 		} // end featured image ?>
