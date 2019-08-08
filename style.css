@@ -65,6 +65,9 @@ h1 {
 	height: 440px;
 }
 
+.post {
+	text-align: justify;
+}
 
 /* Hide empty row */
 
