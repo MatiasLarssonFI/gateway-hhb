@@ -69,6 +69,7 @@ h1 {
 	text-align: justify;
 }
 
+
 /* Hide empty row */
 
 .home_posts_titles,
@@ -78,6 +79,12 @@ h1 {
 
 
 /* Mobile banner styling */
+
+@media (max-width: 880px) {
+	.site-branding {
+		bottom: -250px;
+	}
+}
 
 @media (max-width: 768px) {
 	.bg-image-header {
@@ -96,7 +103,7 @@ h1 {
 	}
 	
 	.site-branding {
-		bottom: -30px;
+		bottom: -40px;
 	}
 	
 	
