@@ -5,7 +5,7 @@
  Author:       Matias Larsson
  Author URI:   
  Template:     gateway
- Version:      0.1.0
+ Version:      0.2.0
  License: GNU General Public License v2 or later
  License URI: http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         
@@ -67,6 +67,10 @@ h1 {
 
 .post {
 	text-align: justify;
+}
+
+.post > .entry-content > p {
+	font-size: 15px;
 }
 
 
